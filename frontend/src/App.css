@@ -1,0 +1,45 @@
+.main-page{
+    background-color: #937DC2;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.header{
+    padding-top: 1rem;
+}
+.file-input{
+    display: none;
+}
+.label-button{
+    padding: 0.5rem;
+    background-color: rgb(177, 177, 255);
+    display: inline-block;
+    border-radius: 10%;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    margin-bottom: 0.5rem;
+}
+.label-button:hover{
+    background-color: #FCC5C0;
+    color:white;
+}
+.table-div{
+    height: 80vh;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #C689C6;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+tr{
+    transition: 0.2s;
+    cursor: pointer;
+    transition-timing-function: ease;
+}
+tr:hover{
+    color:aliceblue;
+    background-color: #f0c1f0;
+    border-radius: 2rem;
+}
