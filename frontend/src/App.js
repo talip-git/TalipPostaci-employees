@@ -10,7 +10,7 @@ function App() {
   const handleFile = (e)=>{
     const file = e.target.files[0]
     if(!file.name.substring(file.name.length-5).includes(".csv")){
-        return setErr("Please enter a csv file!")
+        return setErr(true)
     }
     const sendFile = async (file)=>{
       try {
